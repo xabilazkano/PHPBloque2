@@ -5,8 +5,9 @@
 	<body>
 		<?php
 		$esaldia = "manzana pera limón sandía melón";
-		$hitzak = array();
 		$hitza = explode(' ', $esaldia);
+		$hitzak = array();
+		
 		for ($i = 0; $i < count($hitza); $i++)
 			
 			$hitzak[$hitza[$i]] = strlen($hitza[$i]);

@@ -13,7 +13,7 @@
 				echo $e->getMessage(), "\n";
 			}
 		}
-		exist("39.php");
+		exist("config.php");
 		?>
 	</body>
 </html>
