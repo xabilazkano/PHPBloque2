@@ -32,6 +32,14 @@
 	$proba = berria($urtebetetzeak,"Urtarrila","Peru");
 	echo $proba;
 
+	foreach ($urtebetetzeak as $hilabetea => $izenak) {
+		echo "<h2 style='color:blue'>".$hilabetea."</h2><ol>";
+		foreach ($izenak as $izena) {
+			echo "<li>".$izena."</li>";
+		}
+		echo "</ol>";
+	}	
+
 
 	?>
 </body>
